@@ -6,9 +6,21 @@
 
 int main ()
 {
-	std::cout << "Hello World!";
-	int v1;
-	std::cin >> v1;
-	std::cout << v1;
+	std::cout << "How many numbers do you want to count? ";
+	int count;
+	std::cin >> count;
+	std::cout << "What number are you starting with? ";
+	int start;
+	std::cin >> start;
+
+	for (int i = 1; i <= count; i++)
+	{
+		std::cout << start << std::endl;
+		start++;
+	}
+	std::cin.get();
+    return 0;
+
 }
 
+	
