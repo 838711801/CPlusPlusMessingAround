@@ -7,5 +7,8 @@
 int main ()
 {
 	std::cout << "Hello World!";
+	int v1;
+	std::cin >> v1;
+	std::cout << v1;
 }
 
